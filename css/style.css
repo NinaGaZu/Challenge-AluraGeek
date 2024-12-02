@@ -1,0 +1,199 @@
+:root{
+  --negro-suave:#2C3E50;
+  --beige:#F5E1A4;
+  --rojo-retro:#C0392B;
+  --azul-marino:#34495E;
+  --blanco:#FFFFFF;
+  --gris-oscuro:#7F8C8D;
+  --amarillo-mostaza:#F39C12;
+  --verde-menta:#1ABC9C;
+  --verde-menta-oscuro:#16A085;
+  --naranja-retro:#E67E22;
+  --naranja-oscuro:#D35400;
+  --letra:'Arial', sans-serif;
+}
+
+
+/* Fondo Principal */
+html, body {
+  box-sizing: border-box;
+  background-color: var(--beige); /* Beige */
+  font-family: var(--letra);
+  color: var(--negro-suave); /* Negro Suave */
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Encabezado */
+header {
+  background-color: var(--rojo-retro); /* Rojo Retro */
+  padding: 16px;
+  text-align: center;
+  color: var(--blanco);
+  font-size: 2.5em;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Títulos y Subtítulos */
+h1 {
+  text-align: center;
+  color: var(--azul-marino); /* Azul Marino */
+}
+
+h2 {
+  padding:50px 0 0 0;
+  text-align: center;
+  color: var(--azul-marino); /* Azul Marino */
+  font-size: 1.5em;
+}
+/* MAIN */
+main {
+  flex: 1; /* Hace que el main ocupe todo el espacio disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Espacio igual entre las secciones */
+  align-items: center; /* Centra el contenido horizontalmente */
+  padding: 32px;
+}
+
+/* Formulario */
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  
+}
+
+input {
+  border: 1px solid var(--gris-oscuro); /* Gris Oscuro */
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 15px;
+}
+
+/* Botones de Acción */
+.boton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+button.enviar {
+  background-color: var(--verde-menta);  /* Verde Menta */
+  color: var(--blanco);
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button.enviar:hover {
+  background-color: var(--verde-menta-oscuro) ; /* Verde Menta Oscuro */
+}
+
+button.limpiar {
+  background-color: var(--naranja-retro) ; /* Naranja Retro */
+  color: var(--blanco);
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button.limpiar:hover {
+  background-color: var(--naranja-oscuro); /* Naranja Oscuro */
+}
+
+/* Productos */
+.container-productos {
+  width: 100%;
+  max-width: 768px; /* Ajusta el ancho máximo */
+  margin-bottom: 32px; /* Espaciado entre secciones */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas por defecto */
+  gap: 8px; /* Espaciado entre las cards */
+  margin: 50px auto;
+  padding: 8px;
+}
+.productos {
+  background-color: var(--blanco); /* Fondo Blanco */
+  border: 1px solid var(--gris-oscuro); /* Gris Oscuro */
+  margin: 5px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.productos-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.productos-titulo {
+  font-size: 1em;
+  color: var(--negro-suave); /* Negro Suave */
+}
+
+.productos-valor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.productos-precio {
+  font-size: 1em;
+  color: var(--amarillo-mostaza); /* Amarillo Mostaza */
+}
+
+.productos-btn {
+  font-size: 0.75em;
+}
+
+/* Footer */
+footer {
+  background-color: #2C3E50; /* Azul Oscuro */
+  color: #FFFFFF; /* Blanco */
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 1em;
+  margin-top: auto; /* Empuja el footer al final de la página */
+}
+
+.footer {
+  font-size: 0.75em;
+}
+
+/* Estilos para tablets (min-width: 768px) */
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 50px;
+    max-width: 1024px; /* Limita el ancho total de main */
+    margin: 0 auto; /* Centra main horizontalmente */
+    align-items: flex-start;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    
+  }
+
+  .container-productos {
+    margin-bottom: 48px; /* Más espacio entre secciones en pantallas grandes */
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas en pantallas mayores */
+  }
+  
+}
