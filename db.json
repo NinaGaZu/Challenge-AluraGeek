@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "Id": "1",
+      "nombre": "Producto 1",
+      "precio": "1000",
+      "imagen": "./assets/imagen/spiderman.jpg"
+    },
+    {
+      "Id": "2",
+      "nombre": "Producto 2",
+      "precio": "2000",
+      "imagen": "./assets/imagen/spiderman.jpg"
+    },
+    {
+      "Id": "3",
+      "nombre": "Producto 3",
+      "precio": "3000",
+      "imagen": "./assets/imagen/spiderman.jpg"
+    },
+    {
+      "Id": "4",
+      "nombre": "Producto 4",
+      "precio": "2000",
+      "imagen": "./assets/imagen/spiderman.jpg"
+    }
+  ]
+}
