@@ -1,7 +1,7 @@
-import { obtenerProductos } from './index.js';
+import { index } from './index.js';
 
 // Mostrar productos en el DOM
-function mostrarProductos(productos) {
+export function mostrarProductos(productos) {
   const card = document.querySelector("[data-lista]");
   if (!card) {
     console.error('El contenedor con data-lista no existe en el DOM');
@@ -19,7 +19,9 @@ function mostrarProductos(productos) {
       <h3 class="productos-titulo">${producto.nombre}</h3>
       <div class="productos-valor">
         <p class="productos-precio">Precio: $${producto.precio}</p>
-        <button class="productos-btn" data-id="${producto.Id}">Eliminar</button>
+        <button class="productos-btn" data-id="${producto.id}">
+        <img src="../assets/iconos/trash_bin_icon.png" alt="Eliminar" srcset="">
+        </button>
       </div>
     `;
 
@@ -27,11 +29,12 @@ function mostrarProductos(productos) {
   });
 }
 
+
 // Listar productos desde el servidor
 async function listarProductos() {
   try {
     console.log('Cargando productos...');
-    const productos = await obtenerProductos(); // Datos obtenidos correctamente
+    const productos = await index.obtenerProductos(); // Datos obtenidos correctamente
     console.log('Productos:', productos);
 
     if (Array.isArray(productos) && productos.length > 0) {

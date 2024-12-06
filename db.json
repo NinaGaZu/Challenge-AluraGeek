@@ -4,25 +4,47 @@
       "Id": "1",
       "nombre": "Producto 1",
       "precio": "1000",
-      "imagen": "./assets/imagen/spiderman.jpg"
+      "imagen": "./assets/imagen/spiderman.jpg",
+      "id": "31c8"
     },
     {
       "Id": "2",
       "nombre": "Producto 2",
       "precio": "2000",
-      "imagen": "./assets/imagen/spiderman.jpg"
+      "imagen": "./assets/imagen/spiderman.jpg",
+      "id": "c4f4"
     },
     {
       "Id": "3",
       "nombre": "Producto 3",
       "precio": "3000",
-      "imagen": "./assets/imagen/spiderman.jpg"
+      "imagen": "./assets/imagen/spiderman.jpg",
+      "id": "66fd"
     },
     {
       "Id": "4",
       "nombre": "Producto 4",
       "precio": "2000",
-      "imagen": "./assets/imagen/spiderman.jpg"
+      "imagen": "./assets/imagen/spiderman.jpg",
+      "id": "1c2e"
+    },
+    {
+      "id": 1733500312557,
+      "nombre": "PS5",
+      "precio": "500",
+      "imagen": "https://th.bing.com/th/id/R.c903e10f419f63972d7c02e90598ffaf?rik=xqNDCEvIO6jJ0A&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 1733500556978,
+      "nombre": "Wonder Woman",
+      "precio": "100",
+      "imagen": "https://www.derivstore.com/wp-content/uploads/2021/09/Funko-POP-Wonder-Woman-80th-on-Pegasus.jpg"
+    },
+    {
+      "id": 1733500948561,
+      "nombre": "USB flash Ninja",
+      "precio": "40",
+      "imagen": "https://ae01.alicdn.com/kf/HTB1ozzkMpXXXXahXpXXq6xXFXXXf/227378029/HTB1ozzkMpXXXXahXpXXq6xXFXXXf.jpg"
     }
   ]
 }

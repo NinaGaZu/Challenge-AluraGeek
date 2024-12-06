@@ -10,7 +10,7 @@
 <body>
   <header>
     <nav class="navegador">
-      <img src="#" alt="XD">
+      <img src="./assets/iconos/gameboygames.png" alt="Gameboy">
       <h1>AluraGeek</h1>
     </nav>
   </header>
@@ -18,15 +18,15 @@
   <main>
     <section>
       <h2>AGREGAR PRODUCTO:</h2>
-      <form class="formulario">
+      <form class="formulario" data-formulario="">
         <div class="input">
-          <input type="text" placeholder="Nombre">
-          <input type="text" placeholder="Precio">
-          <input type="text" placeholder="Imagen">
+          <input type="text" placeholder="Nombre" data-nombre>
+          <input type="text" placeholder="Precio" data-precio>
+          <input type="text" placeholder="Imagen" data-imagen>
         </div>
         <div class="boton">
           <button class="enviar" type="submit">Enviar</button>
-          <button class="limpiar" type="submit">Limpiar</button>
+          <!-- <button class="limpiar" type="submit">Limpiar</button> -->
         </div>
       </form>
     </section>
@@ -34,30 +34,7 @@
     <section>
       <h2>MIS PRODUCTOS:</h2>
       <div class="container-productos" data-lista>
-        <!-- <div class="productos">
-          <img class="productos-img" src="./assets/imagen/spiderman.jpg" alt="imagen">
-          <h3 class="productos-titulo">Nombre del producto</h3>
-          <div class="productos-valor">
-            <p class="productos-precio">Precio: $100</p>
-            <button class="productos-btn">Eliminar</button>
-          </div>
-        </div> -->
-        <!-- <div class="productos">
-          <img class="productos-img" src="./assets/imagen/spiderman.jpg" alt="imagen">
-          <h3 class="productos-titulo">Nombre del producto</h3>
-          <div class="productos-valor">
-            <p class="productos-precio">Precio: $100</p>
-            <button class="productos-btn">Eliminar</button>
-          </div>
-        </div>
-        <div class="productos">
-          <img class="productos-img" src="./assets/imagen/spiderman.jpg" alt="imagen">
-          <h3 class="productos-titulo">Nombre del producto</h3>
-          <div class="productos-valor">
-            <p class="productos-precio">Precio: $100</p>
-            <button class="productos-btn">Eliminar</button>
-          </div>
-        </div> -->
+       
       </div>
     </section>
 
@@ -69,6 +46,7 @@
     <P class="footer">ALURA LATAM - 2024</P>
   </footer>
   <!-- <script type="module" src="./js/index.js"></script> -->
-  <script type="module" src="./js/crearCards.js"></script>
+  <script type="module" src="./js/mostrarCards.js"></script>
+  <script type="module" src="./js/crearProductos.js"></script>
 </body>
 </html>
