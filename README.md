@@ -1,4 +1,4 @@
-<h1 align = "center"><img src = ""  width = 400px/>Alura Geek</h1>
+<h1 align = "center"><img src = "https://github.com/NinaGaZu/Challenge-AluraGeek/blob/main/assets/iconos/gameboygames.png"  width = 400px/>Alura Geek</h1>
 <p align = "justify">Bienvenida/o a mi versión de Alura Geek. Una página que me permite renderizar productos utilizando JavaScript, desde una API simulada y capturar productos desde un formulario.</p>
 <div align = "center">
   <img src = "C:\Users\Nina\OneDrive\Escritorio\G7 ONE\Formación Especialización\Challenge  Portafolio\Portafolio\assets\img\Challenge Alura Geek.jpeg"  width = 400px/>
