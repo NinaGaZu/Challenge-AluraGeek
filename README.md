@@ -24,12 +24,12 @@
 <img src = "https://github.com/NinaGaZu/Challenge-AluraGeek/blob/main/assets/image_readme/estructura.png"  width = 450px/>
 <h2>Cómo Instalar y Ejecutar el Proyecto</h2>
 <ol>
-  <li align = "justify">Clonar repositorio:</li>
-  ```bash
+  <li align = "justify">Clonar repositorio:
+  ```
   git clone https://github.com/tu-usuario/tu-repositorio.git
   cd tu-repositorio
   ```
-  
+  </li>
   <li align = "justify">Listar productos.</li>
   <li align = "justify">Crear nuevos productos.</li>
   <li align = "justify">Modificar productos existentes.</li>
