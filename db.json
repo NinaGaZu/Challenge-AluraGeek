@@ -1,50 +1,34 @@
 {
   "productos": [
     {
-      "Id": "1",
-      "nombre": "Producto 1",
-      "precio": "1000",
-      "imagen": "./assets/imagen/spiderman.jpg",
-      "id": "31c8"
+      "id": 1,
+      "nombre": "Kamado Tanjiro",
+      "precio": "89990",
+      "imagen": "https://geekz.cl/web/image/product.product/5144/image?unique=53c3f56"
     },
     {
-      "Id": "2",
-      "nombre": "Producto 2",
-      "precio": "2000",
-      "imagen": "./assets/imagen/spiderman.jpg",
-      "id": "c4f4"
+      "id": 2,
+      "nombre": "Polera UNIT-01",
+      "precio": "14990",
+      "imagen": "https://geekz.cl/web/image/product.product/20648/image?unique=3b2e86e"
     },
     {
-      "Id": "3",
-      "nombre": "Producto 3",
-      "precio": "3000",
-      "imagen": "./assets/imagen/spiderman.jpg",
-      "id": "66fd"
+      "id": 3,
+      "nombre": "Peluche Dragonair",
+      "precio": "24990",
+      "imagen": "https://geekz.cl/web/image/product.product/18853/image?unique=fd7485a"
     },
     {
-      "Id": "4",
-      "nombre": "Producto 4",
-      "precio": "2000",
-      "imagen": "./assets/imagen/spiderman.jpg",
-      "id": "1c2e"
+      "id": 4,
+      "nombre": "Model Red Force",
+      "precio": "54990",
+      "imagen": "https://geekz.cl/web/image/product.product/17344/image?unique=74a9f13"
     },
     {
-      "id": 1733500312557,
-      "nombre": "PS5",
-      "precio": "500",
-      "imagen": "https://th.bing.com/th/id/R.c903e10f419f63972d7c02e90598ffaf?rik=xqNDCEvIO6jJ0A&pid=ImgRaw&r=0"
-    },
-    {
-      "id": 1733500556978,
-      "nombre": "Wonder Woman",
-      "precio": "100",
-      "imagen": "https://www.derivstore.com/wp-content/uploads/2021/09/Funko-POP-Wonder-Woman-80th-on-Pegasus.jpg"
-    },
-    {
-      "id": 1733500948561,
-      "nombre": "USB flash Ninja",
-      "precio": "40",
-      "imagen": "https://ae01.alicdn.com/kf/HTB1ozzkMpXXXXahXpXXq6xXFXXXf/227378029/HTB1ozzkMpXXXXahXpXXq6xXFXXXf.jpg"
+      "id": 5,
+      "nombre": "Juego de mesa Clue",
+      "precio": "6990",
+      "imagen": "https://geekz.cl/web/image/product.product/8711/image?unique=8e31df1"
     }
   ]
 }
