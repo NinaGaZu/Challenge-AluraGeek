@@ -1,7 +1,7 @@
 // Función para obtener productos desde el servidor
 async function obtenerProductos() {
   try {
-    const response = await fetch('http://localhost:3000/productos', {
+    const response = await fetch('https://68823c6a66a7eb81224defdc.mockapi.io/productos', {
       method: 'GET',
       headers: {
         "Content-type": "application/json"
@@ -37,7 +37,7 @@ async function crearProducto(nombre, precio, imagen) {
     };
 
     // Enviar el nuevo producto al servidor
-    const response = await fetch("http://localhost:3000/productos", {
+    const response = await fetch("https://68823c6a66a7eb81224defdc.mockapi.io/productos", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -59,7 +59,7 @@ async function crearProducto(nombre, precio, imagen) {
 //Funcion para eliminar un producto
 async function eliminarProducto(id) {
   try {
-    const response = await fetch(`http://localhost:3000/productos/${id}`, {
+    const response = await fetch(`https://68823c6a66a7eb81224defdc.mockapi.io/productos${id}`, {
       method: 'DELETE',
       headers: {
         "Content-type": "application/json"
