@@ -49,7 +49,7 @@ Puedes ver el proyecto funcionando aquí:
    git clone https://github.com/tu-usuario/tu-repositorio.git
    cd tu-repositorio
 
-2. Abrir el archivo <code>index.html</code> en tu navegador directamente o usar una extensión como Live Server si usas VS Code
+2. Abrir el archivo <code>index.html</code> en tu navegador directamente o usar una extensión como Live Server si usas VS Code.
  
 ## 🗃️ API REST
 
