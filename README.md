@@ -7,18 +7,22 @@
   <img src="https://github.com/NinaGaZu/Challenge-AluraGeek/blob/main/assets/image_readme/AluraGeek.png" width="450px" alt="Vista general de Alura Geek"/>
 </div>
 
+## 🌐 Proyecto en Producción
+
+Puedes ver el proyecto funcionando aquí:  
+🔗 [https://challenge-alura-geek-gray-tau.vercel.app/](https://challenge-alura-geek-gray-tau.vercel.app/)
+
 ## 🛠️ Tecnologías Utilizadas
 
 - HTML
 - CSS
 - JavaScript
-- Node.js
-- JSON Server
+- [MockAPI] (https://mockapi.io/) para simular base de datos
 
 ## 🚀 Características del Proyecto
 
 - Crear la estructura básica de la página utilizando HTML y CSS (Header, main y footer).
-- Listar productos.
+- Listar productos desde una API REST.
 - Crear nuevos productos.
 - Modificar productos existentes.
 - Eliminar productos.
@@ -26,9 +30,16 @@
 
 ## 🖥️ Estructura del Proyecto
 
-![Estructura del Proyecto](https://github.com/NinaGaZu/Challenge-AluraGeek/blob/main/assets/image_readme/estructura.png)
+/
+├── assets/
+│ ├── iconos/
+│ └── image_readme/
+├── css/
+├── js/
+├── index.html
+├── README.md
 
-## 📦 Cómo Instalar y Ejecutar el Proyecto
+## 📦 Cómo Ejecutar el Proyecto Localmente
 
 1. Clonar repositorio:
 
@@ -36,16 +47,11 @@
    git clone https://github.com/tu-usuario/tu-repositorio.git
    cd tu-repositorio
 
-2. Instalar dependencias:
-
-   ```bash
-   npm install
-
-3. Levantar el servidor local
-
-   ```bash
-   npx json-server --watch db.json
-
-4. Abrir en el navegador:
-   <p>Visita <code>http//localhost:3000</code></p>
+2. Abrir el archivo <code>index.html</code> en tu navegador directamente o usar una extensión como <br>Live Server</br> si usas VS Code
  
+## 🗃️ API REST
+
+El proyecto consume datos desde una API pública simulada usando MockAPI.
+Puedes explorar los datos en:
+🔗 [API de productos en MockAPI](https://68823c6a66a7eb81224defdc.mockapi.io/productos)
+
