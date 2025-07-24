@@ -30,6 +30,7 @@ Puedes ver el proyecto funcionando aquí:
 
 ## 🖥️ Estructura del Proyecto
 
+```bash
 /
 ├── assets/
 │ ├── iconos/
@@ -38,6 +39,7 @@ Puedes ver el proyecto funcionando aquí:
 ├── js/
 ├── index.html
 ├── README.md
+```
 
 ## 📦 Cómo Ejecutar el Proyecto Localmente
 
@@ -47,11 +49,12 @@ Puedes ver el proyecto funcionando aquí:
    git clone https://github.com/tu-usuario/tu-repositorio.git
    cd tu-repositorio
 
-2. Abrir el archivo <code>index.html</code> en tu navegador directamente o usar una extensión como <br>Live Server</br> si usas VS Code
+2. Abrir el archivo <code>index.html</code> en tu navegador directamente o usar una extensión como Live Server si usas VS Code
  
 ## 🗃️ API REST
 
 El proyecto consume datos desde una API pública simulada usando MockAPI.
 Puedes explorar los datos en:
+
 🔗 [API de productos en MockAPI](https://68823c6a66a7eb81224defdc.mockapi.io/productos)
 
